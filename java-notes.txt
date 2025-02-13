@@ -51,3 +51,56 @@ JavaScript is the Programming Language for the Web.
 it can update and change both HTML and CSS.
 
 JavaScript can calculate, manipulate and validate data. its a very powerful programming language till date for creating web pages and development.
+
+
+// SYNTAX //
+console.log(Hello World");
+- to print output in console area
+
+document.write("Hello World");
+- to print output in web area
+
+alert("Hello");
+- to print message in pop up dialogue box
+
+confirm("Are you single?"); 
+- to get boolen answer as an input from the user
+
+prompt("what is your name?");
+- to get string answer as an input from the user
+
+
+//variables :- container which hold information
+note:
+default datatype is string but can be changed to any other
+
+var a = 1/1000/7.69/"Addu"; (default datatype)
+let a = 1/1000/7.69/"Addu"/true;
+
+
+-the difference between var & let
+1. Redecleration -> var(!) let(x) = because it overwrites 
+2. Memory leak -> not visible to anyone by using scope {}, var is global
+
+
+
+//Datatype//
+const x = 1; (value will be never changed)
+Array = [];
+object = {};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
