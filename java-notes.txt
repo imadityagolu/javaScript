@@ -1,4 +1,4 @@
---JavaScript 
+// JavaScript // 
 is a programming language that allows developers to create interactive web pages.
 
   
@@ -70,7 +70,7 @@ prompt("what is your name?");
 - to get string answer as an input from the user
 
 
-//variables :- container which hold information
+// variables :- container which hold information
 note:
 default datatype is string but can be changed to any other
 
@@ -84,10 +84,77 @@ let a = 1/1000/7.69/"Addu"/true;
 
 
 
-//Datatype//
+// Datatypes //
 const x = 1; (value will be never changed)
 Array = [];
 object = {};
+
+
+// To add javascript file in html page //
+<script src="javascript.js"></script>
+note:-
+script tag is added after the body ends
+
+
+
+// creating function in js //
+! without parameter
+function NAME ()
+{
+let a = 10;
+let b = 20;
+console.log(a+b);
+}
+NAME(); -> to call the function
+
+
+! with parameters
+let a = 10;
+let b = 20;
+function NAME (a,b)
+{
+console.log(a+b);
+}
+NAME(a,b); -> to call the function with parameters
+
+
+! with return values
+function NAME(a=1, b=2)
+{
+return a+b;
+}
+console.log(NAME(10,50));
+
+note:-
+a=1, b=2 -> is given as a default value, it can be any value
+
+
+
+
+// pre-defined syntax //
+~ str.length;
+-> will return the length of the string
+
+~ str.IndexOf("VALUE");
+-> will give the position of the inputted value
+
+~ str.lastIndexOf("VALUE");
+-> will return the last occurrence of the value
+
+~ str.indexOf("VALUE", POSITION);
+-> position declaration will start searching from that index value(default is -1)
+
+~ includes("VALUE");
+-> will give a boolean result if that is available in it
+
+~ includes("VALUE", POSITION);
+-> position declaration will start searching from that index value
+
+
+
+
+
+
 
 
 
