@@ -148,7 +148,7 @@ a=1, b=2 -> is given as a default value, it can be any value
 -> will give a boolean result if that is available in it
 
 ~ includes("VALUE", POSITION);
--> position declaration will start searching from that index value
+-> position declaration will start searching from that index value.
 
 
 
