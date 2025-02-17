@@ -92,7 +92,7 @@ object = {};
 
 // To add javascript file in html page //
 <script src="javascript.js"></script>
-note:-
+note:
 script tag is added after the body ends
 
 
@@ -125,7 +125,7 @@ return a+b;
 }
 console.log(NAME(10,50));
 
-note:-
+note:
 a=1, b=2 -> is given as a default value, it can be any value
 
 
@@ -150,9 +150,43 @@ a=1, b=2 -> is given as a default value, it can be any value
 ~ includes("VALUE", POSITION);
 -> position declaration will start searching from that index value.
 
+~ str.toUpperCase();
 
+~ str.toLowerCase();
 
+~ str.slice("STARTING INDEX");
+-> will give the value stating from that index till the end
 
+~ str.slice("STARTING INDEX", "ENDING INDEX");
+-> will give the value starting from that index till the ENDING VALUE index
+note:
+it will not include the ending index
+
+~ str.split("VALUE");
+-> will split all into individuals
+
+~ str.split("VALUE").length;
+-> will return the number of parts in which the string is divided
+note:
+/\s+/ 
+-> will remove the blank space
+
+~ str.substring("VALUE");
+-> will return the value from that given string till the end
+
+~ str.substring("STARTING VALUE", TILL THE NUMBER);
+-> will return the value from that given string till the number counting
+
+~ str.replace("TO", "ASSIGNED");
+-> will replace the TO value from ASSIGNED one
+note:
+it will create a new string, and both the string will exist
+
+~ str.replaceAll("TO", "ASSIGNED");
+-> will replace ALL the TO value from ASSIGNED one
+note:
+it can also be written as ~ str.replaceAll(/TO/g, "ASSIGNED");
+here g is a flag and its full form is Global
 
 
 
