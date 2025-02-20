@@ -1,1 +1,274 @@
+// JavaScript // 
+is a programming language that allows developers to create interactive web pages.
+
+  
+--the purpose of javascript in web development are
+Javascript is a client-side scripting language that's a core technology of the World Wide Web.
+JavaScript is based on the syntax of Java and C 
+it supports object-oriented programming with classes and object prototypes
+
+  
+--importance of javascript in modern web applications are
+JavaScript variables store data values
+its functions are reusable blocks of code that perform specific tasks
+
+  
+--it enhances interactivity and functionality on websites
+by events having actions that happen in the browser, such as mouse clicks and keyboard input
+
+  
+--Highlighting the key benefits of javascript, such as:
+
+Speed= due to its "Just-in-Time" (JIT) compilation feature, which allows the browser to optimize and compile JavaScript code on the fly during execution
+
+Versatility(front-end and back-end usage)= thanks to the technology "Node.js" which allows JavaScript code to run on the server side, enabling developers to write code for the entire application using a single language, creating a unified development experience across the whole application stack
+
+Community and ecosystem= it refers to the vast collection of developers, libraries, frameworks, tools, and resources that surround the JavaScript programming language, allowing developers to build web applications with a wide range of functionalities by utilizing readily available components
+prominent examples include React, Angular, Node.js, and NPM (Node Package Manager), etc
+
+Browser support and widespread use= many web browsers are built using javascrip example chrome its is 90% build by using javascrip because it helps the browser to understand the code of html css and javascript to perform better when user is interacting with any website 
+
+
+--JavaScript stands out as a versatile, client-side scripting language primarily used for web development, making it distinct from other languages by being directly interpreted by browsers, allowing for dynamic and interactive web experiences, while most other languages require server-side compilation; it's considered easy to learn due to its relatively simple syntax
+
+  
+--Many popular websites and applications utilize JavaScript extensively, including: Google, YouTube, Facebook, Wikipedia, Amazon, Netflix, eBay, Reddit, Twitter, etc
+
+  
+--JavaScript frameworks provide structure and pre-written code to streamline web development. They offer solutions for common tasks like managing data, handling user interactions, and building user interfaces, which accelerates the development process 
+examples are--
+
+react= Primarily used for building user interfaces, particularly single-page applications, with a component-based architecture.
+
+angular= it is A comprehensive framework for building complex web applications, offering features like data binding, routing, and dependency injection.
+
+node.js= A runtime environment that allows JavaScript to be executed server-side, enabling the development of backend applications and APIs.
+etc
+  
+
+JavaScript is the Programming Language for the Web.
+
+it can update and change both HTML and CSS.
+
+JavaScript can calculate, manipulate and validate data. its a very powerful programming language till date for creating web pages and development.
+
+
+// SYNTAX //
+console.log(Hello World");
+- to print output in console area
+
+document.write("Hello World");
+- to print output in web area
+
+alert("Hello");
+- to print message in pop up dialogue box
+
+confirm("Are you single?"); 
+- to get boolen answer as an input from the user
+
+prompt("what is your name?");
+- to get string answer as an input from the user
+
+
+// variables :- container which hold information
+note:
+default datatype is string but can be changed to any other
+
+var a = 1/1000/7.69/"Addu"; (default datatype)
+let a = 1/1000/7.69/"Addu"/true;
+
+
+-the difference between var & let
+1. Redecleration -> var(!) let(x) = because it overwrites 
+2. Memory leak -> not visible to anyone by using scope {}, var is global
+
+
+
+// Datatypes //
+const x = 1; (value will be never changed)
+Array = [];
+object = {};
+
+
+// To add javascript file in html page //
+<script src="javascript.js"></script>
+note:
+script tag is added after the body ends
+
+
+
+// creating function in js //
+! without parameter
+function NAME ()
+{
+let a = 10;
+let b = 20;
+console.log(a+b);
+}
+NAME(); -> to call the function
+
+
+! with parameters
+let a = 10;
+let b = 20;
+function NAME (a,b)
+{
+console.log(a+b);
+}
+NAME(a,b); -> to call the function with parameters
+
+
+! with return values
+function NAME(a=1, b=2)
+{
+return a+b;
+}
+console.log(NAME(10,50));
+
+note:
+a=1, b=2 -> is given as a default value, it can be any value
+
+
+
+
+// pre-defined syntax //
+~ str.length;
+-> will return the length of the string
+
+~ str.IndexOf("VALUE");
+-> will give the position of the inputted value
+
+~ str.lastIndexOf("VALUE");
+-> will return the last occurrence of the value
+
+~ str.indexOf("VALUE", POSITION);
+-> position declaration will start searching from that index value(default is -1)
+
+~ includes("VALUE");
+-> will give a boolean result if that is available in it
+
+~ includes("VALUE", POSITION);
+-> position declaration will start searching from that index value.
+
+~ str.toUpperCase();
+
+~ str.toLowerCase();
+
+~ str.slice("STARTING INDEX");
+-> will give the value stating from that index till the end
+
+~ str.slice("STARTING INDEX", "ENDING INDEX");
+-> will give the value starting from that index till the ENDING VALUE index
+note:
+it will not include the ending index
+
+~ str.split("VALUE");
+-> will split all into individuals
+
+~ str.split("VALUE").length;
+-> will return the number of parts in which the string is divided
+note:
+/\s+/ 
+-> will remove the blank space
+
+~ str.substring("VALUE");
+-> will return the value from that given string till the end
+
+~ str.substring("STARTING VALUE", TILL THE NUMBER);
+-> will return the value from that given string till the number counting
+
+~ str.replace("TO", "ASSIGNED");
+-> will replace the TO value from ASSIGNED one
+note:
+it will create a new string, and both the string will exist
+
+~ str.replaceAll("TO", "ASSIGNED");
+-> will replace ALL the TO value from ASSIGNED one
+note:
+it can also be written as ~ str.replaceAll(/TO/g, "ASSIGNED");
+here g is a flag and its full form is Global
+
+~ str.trim();
+-> it will remove all the white spaces
+
+~ str.padStart("TIMES", 'NUMBER');
+-> it will add the number at the starting to the numbers of defined times
+
+~ str.padEnd("TIMES", 'NUMBER');
+-> it will add the number at the end to the numbers of defined times
+
+~ str.reverse();
+-> will reverse the string
+
+~ arr.flat();
+-> creates a new array with all sub-array elements concatenated within one array
+
+~ array1.concat(array2);
+-> creates a new array after concatenating 2 different arrays in one
+
+~ elements.join();
+-> creates a new string after concatenating any array
+
+~ number.toString();
+-> converts any datatype in string
+
+
+// ARRAY //
+how to declare:
+let name = new Array(); //array constructor
+or
+let name = []; // array literal
+
+note:
+size is not defined, datatype can be of different types
+indexing always starts from 0
+
+eg:-
+let name = ["Aditya", 7];
+or
+let name = [];
+name[0] = "Aditya";
+name[1] = 7;
+
+pre-defined functions:
+~ push : to insert value at the end
+~ unshift : to insert value at the beginning
+~ pop : to remove value from the end
+~ shift : to remove value from the beginning
+
+ex:
+name.push("value");
+name.pop();
+
+~ number.splice("STARTING VALUE", "NUMBER OF DELETING VALUE", "ADDING VALUE");
+-> will return the deleted values
+
+~ number.sort();
+-> will give dishonour type result
+
+~ number.sort(compareFn);
+-> will give actual sorted results in descending order.
+
+
+
+// Function calling Function - Call Back //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
