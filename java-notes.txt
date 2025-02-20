@@ -240,7 +240,18 @@ ex:
 name.push("value");
 name.pop();
 
-~ number.splice("STARTING VALUE", "DELETING VALUE", "ADDING VALUE");
+~ number.splice("STARTING VALUE", "NUMBER OF DELETING VALUE", "ADDING VALUE");
+-> will return the deleted values
+
+~ number.sort();
+-> will give dishonour type result
+
+~ number.sort(compareFn);
+-> will give actual sorted results in descending order.
+
+
+
+// Function calling Function - Call Back //
 
 
 
