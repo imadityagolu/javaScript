@@ -252,7 +252,7 @@ name.pop();
 
 
 // Function calling Function - Call Back function //
-
+calling a function inside a function
 
 
 
